@@ -9,6 +9,6 @@ int itc_mirror_count(long long a){
     else{
         for (long long i = a ; i <= 1; i++){
         if (itc_mirror_num(i)){
-            b++;
-    }}
+            b++;}
+        }
     return b;}
